@@ -26,7 +26,7 @@ export function PageHeader({ title, description, icon: Icon, className }: PageHe
           </Link>
           <Link href="/">
             <Image
-              src="/images/asset-2014.png"
+              src="/placeholder-logo.png"
               alt="Shawky Group Logo"
               width={140}
               height={60}

@@ -667,7 +667,7 @@ export function AssistantBot() {
         className={`fixed top-1/2 -translate-y-1/2 right-2 sm:right-4 z-50 w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-full shadow-lg flex items-center justify-center hover:scale-110 transition-transform overflow-hidden border-2 border-primary ${isOpen ? 'hidden' : ''}`}
       >
         <img 
-          src="/images/bot-avatar.png" 
+          src="/placeholder-user.jpg" 
           alt="مساعد شوقي جروب" 
           className="w-full h-full object-cover"
         />
@@ -681,7 +681,7 @@ export function AssistantBot() {
             <div className="flex items-center gap-3">
 <div className="w-10 h-10 rounded-full overflow-hidden">
             <img 
-              src="/images/bot-avatar.png" 
+              src="/placeholder-user.jpg" 
               alt="مساعد شوقي جروب" 
               className="w-full h-full object-cover"
             />

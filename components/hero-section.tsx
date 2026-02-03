@@ -5,7 +5,7 @@ export function HeroSection() {
     <section className="relative overflow-hidden bg-transparent">
       <div className="w-full">
         <Image
-          src="/images/d8-aa-d9-86-d8-b2-d9-8a-d9-84.png"
+          src="/placeholder.jpg"
           alt="Eng. Ahmed Shawky - Founder of Shawky Group"
           width={1920}
           height={600}
