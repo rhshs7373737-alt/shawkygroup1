@@ -1,0 +1,135 @@
+{
+  "email_templates": {
+    "to_employees": {
+      "subject": "📸 طلب عاجل: صور شخصية للموظفين - شركة شوقي جروب",
+      "recipients": [
+        {
+          "name": "محمد عبد المنعم",
+          "position": "مدير الموارد البشرية",
+          "phone": "01009788530",
+          "email": "mohammad.abdel-moniem@shawkygroup.com"
+        },
+        {
+          "name": "محمد حسني",
+          "position": "المدير العام",
+          "phone": "01092942444",
+          "email": "mohammad.hosny@shawkygroup.com"
+        },
+        {
+          "name": "إسلام خالد",
+          "position": "مدير المكتب الفني",
+          "phone": "01156679887",
+          "email": "eslam.khaled@shawkygroup.com"
+        },
+        {
+          "name": "محمد سعيد محمد",
+          "position": "مدير قسم التشغيل",
+          "phone": "01278865930",
+          "email": "mohammad.saeed@shawkygroup.com"
+        }
+      ],
+      "body": "السيد / السيدة،\n\nتحية طيبة وبعد،\n\nنأمل التواصل معكم بخصوص أمر ضروري يتعلق بتحديث بيانات الموظفين في الموقع الإلكتروني للشركة.\n\nنطلب منكم بصفة عاجلة توفير صورة شخصية احترافية حديثة بالمواصفات التالية:\n\n📋 مواصفات الصورة:\n✓ الأبعاد: 800 × 800 بكسل بحد أدنى\n✓ الصيغة: JPG أو PNG\n✓ الجودة: عالية وواضحة\n✓ الملبس: رسمي/احترافي\n✓ الخلفية: محايدة\n✓ الإضاءة: طبيعية وجيدة\n✓ حديثة: من فضلك، صورة حديثة (2024-2026)\n\n📅 الموعد النهائي: 30 يناير 2026 (الساعة 5 مساءً)\n\n📧 طريقة الإرسال:\nيرجى إرسال الصورة على البريد الإلكتروني:\nhagar.abdelaziz@shawkygroup.com\nأو التواصل المباشر على: 01110800543\n\n⏰ تنبيه تذكيري:\nسيتم إرسال تنبيه تذكيري يوم 29 يناير 2026\n\nشاكرين تعاونكم،\n\nفريق الموارد البشرية\nشركة شوقي جروب"
+    },
+    "reminder_email": {
+      "subject": "📢 تنبيه تذكيري: صور الموظفين - موعد نهائي غداً",
+      "body": "السيد / السيدة،\n\nهذا تنبيه تذكيري بأن الموعد النهائي لتسليم الصور الشخصية هو غداً (30 يناير 2026).\n\nإذا لم تقم بإرسال صورتك بعد، يرجى العجلة في ذلك.\n\n📧 البريد الإلكتروني: hagar.abdelaziz@shawkygroup.com\n📱 الهاتف: 01110800543\n\nشاكرين تعاونكم،\nفريق الموارد البشرية"
+    },
+    "completion_email": {
+      "subject": "✅ تم اكتمال صور الموظفين بنجاح",
+      "recipients": [
+        {
+          "role": "management",
+          "email": "management@shawkygroup.com"
+        },
+        {
+          "role": "hr_team",
+          "email": "hr@shawkygroup.com"
+        },
+        {
+          "role": "it_team",
+          "email": "it@shawkygroup.com"
+        }
+      ],
+      "body": "الإدارة الموقرة،\n\nيسعدنا إخباركم بأنه تم اكتمال عملية تحديث صور الموظفين بنجاح.\n\n📊 الإحصائيات:\n✓ إجمالي الموظفين: 10\n✓ الموظفين بالصور الكاملة: 10 (100%)\n✓ معدل الاكتمال: 100%\n✓ التاريخ: 7 فبراير 2026\n\n📋 الموظفين الذين تم تحديثهم:\n1. محمد عبد المنعم - مدير الموارد البشرية\n2. محمد حسني - المدير العام\n3. إسلام خالد - مدير المكتب الفني\n4. محمد سعيد محمد - مدير قسم التشغيل\n\n🔗 الصور متاحة الآن على:\nموقع الشركة الإلكتروني (صفحة الموظفين)\n\nشاكرين،\nفريق التطوير والموارد البشرية"
+    }
+  },
+  "communication_log": {
+    "27_january_2026": {
+      "action": "إرسال الطلب الأولي",
+      "recipients": 4,
+      "status": "pending"
+    },
+    "29_january_2026": {
+      "action": "إرسال تنبيه تذكيري",
+      "recipients": 4,
+      "status": "pending"
+    },
+    "30_january_2026": {
+      "action": "الموعد النهائي لاستقبال الصور",
+      "deadline": "17:00",
+      "status": "pending"
+    },
+    "31_january_2026": {
+      "action": "معالجة الصور وتحسينها",
+      "status": "pending"
+    },
+    "1_3_february_2026": {
+      "action": "تحديث الكود ورفع الصور",
+      "status": "pending"
+    },
+    "4_6_february_2026": {
+      "action": "الاختبار الشامل",
+      "status": "pending"
+    },
+    "7_february_2026": {
+      "action": "الإطلاق النهائي والإخطار",
+      "status": "pending"
+    }
+  },
+  "employee_checklist": [
+    {
+      "id": 1,
+      "name": "محمد عبد المنعم",
+      "phone": "01009788530",
+      "position": "مدير الموارد البشرية",
+      "photo_received": false,
+      "photo_processed": false,
+      "code_updated": false,
+      "tested": false,
+      "deployed": false
+    },
+    {
+      "id": 2,
+      "name": "محمد حسني",
+      "phone": "01092942444",
+      "position": "المدير العام",
+      "photo_received": false,
+      "photo_processed": false,
+      "code_updated": false,
+      "tested": false,
+      "deployed": false
+    },
+    {
+      "id": 3,
+      "name": "إسلام خالد",
+      "phone": "01156679887",
+      "position": "مدير المكتب الفني",
+      "photo_received": false,
+      "photo_processed": false,
+      "code_updated": false,
+      "tested": false,
+      "deployed": false
+    },
+    {
+      "id": 4,
+      "name": "محمد سعيد محمد",
+      "phone": "01278865930",
+      "position": "مدير قسم التشغيل",
+      "photo_received": false,
+      "photo_processed": false,
+      "code_updated": false,
+      "tested": false,
+      "deployed": false
+    }
+  ]
+}

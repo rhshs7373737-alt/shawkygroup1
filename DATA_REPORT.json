@@ -1,0 +1,508 @@
+{
+  "report": {
+    "title": "تقرير فحص البيانات الشامل - Shawky Group",
+    "date": "2026-01-27",
+    "status": "needs_attention",
+    "summary": {
+      "total_contacts": 137,
+      "complete_data": 92,
+      "missing_data": 39,
+      "completion_percentage": 67.2
+    }
+  },
+  
+  "employees": {
+    "total": 95,
+    "complete": 91,
+    "missing": 4,
+    "completion_percentage": 95.8,
+    "missing_data": [
+      {
+        "id": 1,
+        "name": "محمد عبد المنعم",
+        "position": "مدير الموارد البشرية",
+        "department": "الموارد البشرية",
+        "phone": "1110800543",
+        "phone_status": "complete",
+        "image": null,
+        "image_status": "missing",
+        "priority": "high"
+      },
+      {
+        "id": 2,
+        "name": "فاطمة",
+        "position": "مهندسة بقسم الفرش والديكور",
+        "department": "الفرش والديكور",
+        "phone": "1100860110",
+        "phone_status": "complete",
+        "image": null,
+        "image_status": "missing",
+        "notes": "اسم العائلة ناقص",
+        "priority": "medium"
+      },
+      {
+        "id": 3,
+        "name": "حبيبه",
+        "position": "منسق سيراميك",
+        "department": "السيراميك",
+        "phone": "1101605348",
+        "phone_status": "complete",
+        "image": null,
+        "image_status": "missing",
+        "notes": "بيانات شخصية ناقصة",
+        "priority": "medium"
+      },
+      {
+        "id": 4,
+        "name": "يوسف",
+        "position": "منسق سيراميك",
+        "department": "السيراميك",
+        "phone": "1101946679",
+        "phone_status": "complete",
+        "image": null,
+        "image_status": "missing",
+        "notes": "بيانات شخصية ناقصة",
+        "priority": "medium"
+      }
+    ]
+  },
+
+  "contractors": {
+    "total": 31,
+    "complete": 0,
+    "missing": 31,
+    "completion_percentage": 0,
+    "status": "critical",
+    "areas": [
+      {
+        "area": "القاهرة",
+        "total": 6,
+        "missing": 6,
+        "contractors": [
+          {
+            "id": "cairo-1",
+            "name": "مقاول مباني - القاهرة",
+            "specialization": "مباني",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "cairo-2",
+            "name": "مقاول سباكة - القاهرة",
+            "specialization": "سباكة",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "cairo-3",
+            "name": "مقاول محارة - القاهرة",
+            "specialization": "محارة",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "cairo-4",
+            "name": "مقاول كهرباء - القاهرة",
+            "specialization": "كهرباء",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "cairo-5",
+            "name": "مقاول سيراميك - القاهرة",
+            "specialization": "سيراميك",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "cairo-6",
+            "name": "مقاول دهانات - القاهرة",
+            "specialization": "دهانات",
+            "phone": null,
+            "image": null
+          }
+        ]
+      },
+      {
+        "area": "أكتوبر",
+        "total": 7,
+        "missing": 7,
+        "contractors": [
+          {
+            "id": "october-1",
+            "name": "مقاول مباني - أكتوبر",
+            "specialization": "مباني",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "october-2",
+            "name": "مقاول سباكة - أكتوبر",
+            "specialization": "سباكة",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "october-3",
+            "name": "مقاول محارة - أكتوبر",
+            "specialization": "محارة",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "october-4",
+            "name": "مقاول كهرباء - أكتوبر",
+            "specialization": "كهرباء",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "october-5",
+            "name": "مقاول سيراميك - أكتوبر",
+            "specialization": "سيراميك",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "october-6",
+            "name": "مقاول دهانات - أكتوبر",
+            "specialization": "دهانات",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "october-7",
+            "name": "مقاول نجارة - أكتوبر",
+            "specialization": "نجارة",
+            "phone": null,
+            "image": null
+          }
+        ]
+      },
+      {
+        "area": "التجمع",
+        "total": 7,
+        "missing": 7,
+        "contractors": [
+          {
+            "id": "cluster-1",
+            "name": "مقاول مباني - التجمع",
+            "specialization": "مباني",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "cluster-2",
+            "name": "مقاول سباكة - التجمع",
+            "specialization": "سباكة",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "cluster-3",
+            "name": "مقاول محارة - التجمع",
+            "specialization": "محارة",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "cluster-4",
+            "name": "مقاول كهرباء - التجمع",
+            "specialization": "كهرباء",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "cluster-5",
+            "name": "مقاول سيراميك - التجمع",
+            "specialization": "سيراميك",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "cluster-6",
+            "name": "مقاول رخام - التجمع",
+            "specialization": "رخام",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "cluster-7",
+            "name": "مقاول دهانات - التجمع",
+            "specialization": "دهانات",
+            "phone": null,
+            "image": null
+          }
+        ]
+      },
+      {
+        "area": "العاصمة",
+        "total": 6,
+        "missing": 6,
+        "contractors": [
+          {
+            "id": "capital-1",
+            "name": "مقاول مباني - العاصمة",
+            "specialization": "مباني",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "capital-2",
+            "name": "مقاول سباكة - العاصمة",
+            "specialization": "سباكة",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "capital-3",
+            "name": "مقاول محارة - العاصمة",
+            "specialization": "محارة",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "capital-4",
+            "name": "مقاول كهرباء - العاصمة",
+            "specialization": "كهرباء",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "capital-5",
+            "name": "مقاول سيراميك - العاصمة",
+            "specialization": "سيراميك",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "capital-6",
+            "name": "مقاول جبس - العاصمة",
+            "specialization": "جبس",
+            "phone": null,
+            "image": null
+          }
+        ]
+      },
+      {
+        "area": "الأقاليم",
+        "total": 5,
+        "missing": 5,
+        "contractors": [
+          {
+            "id": "regions-1",
+            "name": "مقاول مباني - الأقاليم",
+            "specialization": "مباني",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "regions-2",
+            "name": "مقاول سباكة - الأقاليم",
+            "specialization": "سباكة",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "regions-3",
+            "name": "مقاول محارة - الأقاليم",
+            "specialization": "محارة",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "regions-4",
+            "name": "مقاول كهرباء - الأقاليم",
+            "specialization": "كهرباء",
+            "phone": null,
+            "image": null
+          },
+          {
+            "id": "regions-5",
+            "name": "مقاول ألوميتال - الأقاليم",
+            "specialization": "ألوميتال",
+            "phone": null,
+            "image": null
+          }
+        ]
+      }
+    ]
+  },
+
+  "clients": {
+    "total": 11,
+    "complete": 10,
+    "missing": 1,
+    "completion_percentage": 90.9,
+    "missing_data": [
+      {
+        "id": "2-11",
+        "name": "ابانوب",
+        "code": "CLT-2011",
+        "package": "U.VIP",
+        "area": "القاهرة الجديدة",
+        "phone": null,
+        "email": null,
+        "image": null,
+        "files_count": 9,
+        "files_status": "complete",
+        "notes": "اسم غير كامل - بيانات شخصية ناقصة",
+        "priority": "medium"
+      }
+    ]
+  },
+
+  "images": {
+    "total": 137,
+    "available": 133,
+    "missing": 4,
+    "completion_percentage": 97,
+    "missing_images": [
+      {
+        "type": "employee",
+        "name": "محمد عبد المنعم",
+        "position": "مدير الموارد البشرية",
+        "expected_file": "/images/mohammad-abdulmoniem.jpeg",
+        "priority": "high"
+      },
+      {
+        "type": "employee",
+        "name": "فاطمة",
+        "position": "مهندسة فرش",
+        "expected_file": "/images/fatma-designer.jpeg",
+        "priority": "medium"
+      },
+      {
+        "type": "employee",
+        "name": "حبيبه",
+        "position": "منسق سيراميك",
+        "expected_file": "/images/habiba-ceramic.jpeg",
+        "priority": "medium"
+      },
+      {
+        "type": "employee",
+        "name": "يوسف",
+        "position": "منسق سيراميك",
+        "expected_file": "/images/youssef-ceramic.jpeg",
+        "priority": "medium"
+      }
+    ]
+  },
+
+  "phone_numbers": {
+    "total": 137,
+    "available": 106,
+    "missing": 31,
+    "completion_percentage": 77.4,
+    "breakdown": {
+      "employees": {
+        "total": 95,
+        "available": 95,
+        "missing": 0,
+        "percentage": 100
+      },
+      "contractors": {
+        "total": 31,
+        "available": 0,
+        "missing": 31,
+        "percentage": 0
+      },
+      "clients": {
+        "total": 11,
+        "available": 11,
+        "missing": 0,
+        "percentage": 100
+      }
+    }
+  },
+
+  "action_items": {
+    "immediate": [
+      {
+        "priority": "critical",
+        "task": "جمع أرقام هواتف المقاولين",
+        "count": 31,
+        "deadline": "30-01-2026",
+        "responsible": "فريق الشؤون الإدارية"
+      },
+      {
+        "priority": "high",
+        "task": "إضافة صورة مدير HR",
+        "count": 1,
+        "deadline": "29-01-2026",
+        "responsible": "قسم الموارد البشرية"
+      }
+    ],
+    "this_week": [
+      {
+        "priority": "medium",
+        "task": "التقاط صور الموظفات الثلاث",
+        "count": 3,
+        "deadline": "31-01-2026",
+        "responsible": "قسم الموارد البشرية"
+      },
+      {
+        "priority": "medium",
+        "task": "تكملة بيانات عميل ابانوب",
+        "count": 1,
+        "deadline": "29-01-2026",
+        "responsible": "خدمة العملاء"
+      }
+    ]
+  },
+
+  "recommendations": [
+    {
+      "priority": 1,
+      "category": "العاجل",
+      "recommendation": "إضافة أرقام هواتف المقاولين الـ 31 في غضون 48 ساعة"
+    },
+    {
+      "priority": 2,
+      "category": "مهم",
+      "recommendation": "التقاط صور احترافية للموظفين الأربعة الناقصين"
+    },
+    {
+      "priority": 3,
+      "category": "مهم",
+      "recommendation": "تكملة البيانات الشخصية للعميل ابانوب"
+    },
+    {
+      "priority": 4,
+      "category": "تحسين",
+      "recommendation": "إنشاء نموذج موحد لتسجيل الموظفين والمقاولين"
+    },
+    {
+      "priority": 5,
+      "category": "تحسين",
+      "recommendation": "إعادة فحص البيانات كل 3 أشهر"
+    }
+  ],
+
+  "completion_by_department": [
+    {
+      "department": "الموارد البشرية",
+      "total": 4,
+      "complete": 3,
+      "percentage": 75
+    },
+    {
+      "department": "الفرش والديكور",
+      "total": 6,
+      "complete": 5,
+      "percentage": 83
+    },
+    {
+      "department": "السيراميك",
+      "total": 4,
+      "complete": 2,
+      "percentage": 50
+    },
+    {
+      "department": "باقي الأقسام",
+      "total": 81,
+      "complete": 81,
+      "percentage": 100
+    }
+  ]
+}
